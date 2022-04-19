@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 탭 제목, 구글 검색 노출 제목 -->
+    <title>E-COPS</title>
+    <!-- 구글 검색 노출 설명 -->
+    <meta name="description" content="이화여자대학교 정보보안동아리 E-COPS"/>
+    <!-- 탭 아이콘 -->
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="images/로고그린.png"/>
+
+    <!-- 카톡 공유 설정 -->
+    <meta property="og:title" content="이화여자대학교 정보보안동아리 E-COPS">
+    <meta property="og:description" content="이화여자대학교 인재개발원 커리어클럽에 소속되어 활발한 활동을 펼쳐가고 있는 정보보안동아리 E-COPS입니다.">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://i.imgur.com/tk9GNph.png">
+    <!-- url 추가하기 -->
+    <meta property="og:url" content="#">
+    
+
+    <!-- link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+
+  <!-- main 페이지 -->
+  <body id="main-page" class="main-page">
+
+    <!-- ======== 상단 nav bar ======== -->
+    <nav class="nav-top navbar navbar-expand-lg bg-white sticky-top py-3 px-2 ">
+      <!-- nav bar container -->
+      <div class="nav-top__container container-fluid navbar-right m-0 ">
+        <!-- 이캅스 글자 -->
+        <a class="nav-top__title navbar-brand align-middle text-reset" href="main.html">
+          <h1 class="ms-2 fs-3">E-COPS</h1>
+        </a>
+        <!-- 모바일 nav bar 버튼 -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 메뉴 -->
+        <div class="nav-top__menus collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav-list navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link nav-link__dark active" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link nav-link__dark" href="members.html">Members</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link nav-link__dark" href="activity.html">Activity</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link nav-link__dark" href="recruit.html">Recruit</a>
+            </li>
+            <li class="nav-item ms-3">
+              <!-- mode 변경 버튼 -->
+              <a class="nav-link nav-link__dark" href="main-dark.html">
+                <i class="fas fa-shield-alt fa-lg"></i>
+              </a>
+            </li>
+          </ul>
+        </div> <!-- 메뉴 -->
+
+      </div> <!-- nav bar container -->
+    </nav> <!-- ======== 상단 nav bar ======== -->
+
+    <!-- ======== 메인 배너 =========== -->
+    <header class="main-banner d-flex align-items-center">
+      <!-- 배너 container -->
+      <div class="main-banner__container container-fluid d-flex flex-column align-items-center">
+        <!-- 배너 글씨 -->
+        <h2 class="main-banner__text text-center text-light fs-4">이화여자대학교 정보보안 동아리</h2>
+        <!-- 배너 로고 -->
+        <div class="main-banner__logo text-center m-1">
+          <img src="images/로고흰색.png"/>
+        </div>
+        <!-- 배너 글씨 -->
+        <h1 class="main-banner__text text-center text-light fs-1">E-COPS</h2>
+      </div> <!-- 배너 container -->
+    </header> <!-- ======== 메인 배너 =========== -->
+
+    <!-- ========= main 본문 ========== -->
+    <main class="main-screen d-flex flex-column align-items-center justify-content-center mt-5">
+
+      <!-- 1. 소개 -->
+      <div class="main-item d-flex flex-column justify-content-center">
+        <!-- 소개-내용 -->
+        <div class="main-item__content p-5 d-flex flex-column justify-content-center align-items-center">
+          <!-- circle 이미지-->
+          <img class="main-circle main-ani" src="images/light-circle-text.png">
+          <!-- 텍스트 -->
+          <p class="main-text text-center main-ani">
+            E-COPS(EWHA-CONTROL OF PROGRAM SECURITY)는
+            보안에 대해 공부하고 싶은 학생들의 자발적인 스터디로부터 시작하여
+            이화여자대학교 경력개발센터에 우수 동아리로 이름을 올렸으며,
+            이화여자대학교 인재개발원 커리어클럽에 소속되어 
+            활발한 활동을 펼쳐가고 있는 정보보안 동아리입니다.
+          </p>
+        </div> <!-- 소개-내용 -->
+
+        <!-- 소개-주요 활동 -->
+        <!-- 아이콘 -->
+        <div class="main-item__content main-icons container d-flex flex-column p-4 mt-5">
+          <!-- 아이콘 1행 -->
+          <div class="main-icons__row main-ani row d-flex">
+            <!-- 세션 -->
+            <div class="main-icons__col col-md-4 d-flex flex-column align-items-center my-5">
+              <img class="main-icons__icon" src="images/session.png"/>
+              <div class="main-icons__text d-flex flex-column align-items-center">
+                <span class="text-center fs-4">세션</span>
+                <p class="text-center p-3">매 학기 보안 공부 주제를 선정하여 조별로 스터디를 진행한 후 매주 1회 정규 세션 발표를 통해 부원들과 지식을 나누는 시간을 가지고 있습니다.</p>
+              </div>
+            </div>
+            <!-- 스터디 -->
+            <div class="main-icons__col col-md-4 d-flex flex-column align-items-center my-5">
+              <img class="main-icons__icon" src="images/study.png"/>
+              <div class="main-icons__text d-flex flex-column align-items-center">
+                <span class="text-center fs-4">스터디</span>
+                <p class="text-center p-3">정규 세션 및 프로젝트를 원활하게 진행하기 위해 매학기 방학 스터디를 통하여 보안 뿐만 아니라 컴퓨터 언어, 프레임워크, 툴 등의 개발 지식을 공부하고 있습니다. </p>
+              </div>
+            </div>
+            <!-- 프로젝트 -->
+            <div class="main-icons__col col-md-4 d-flex flex-column align-items-center my-5">
+              <img class="main-icons__icon" src="images/project.png"/>
+              <div class="main-icons__text d-flex flex-column align-items-center">
+                <span class="text-center fs-4">프로젝트</span>
+                <p class="text-center p-3">스터디와 정규 세션에서 배운 내용을 바탕으로 팀을 이루어 팀별 주제를 선정하여 매학기 마지막달부터 방학까지 개발과 보안 프로젝트를 진행하고 있습니다. </p>
+              </div>
+            </div>
+          </div>
+          <!-- 아이콘 2행 -->
+          <div class="main-icons__row main-ani row d-flex">
+            <!-- 대회 -->
+            <div class="main-icons__col col-md-4 d-flex flex-column align-items-center my-5">
+              <img class="main-icons__icon" src="images/contest.png"/>
+              <div class="main-icons__text d-flex flex-column align-items-center">
+                <span class="text-center fs-4">대회</span>
+                <p class="text-center p-3">프로젝트와 스터디를 바탕으로 경험의 축적, 보안 분야 진출을 목표로 다양한 분야의 대회에 참여하며 지원을 아끼지 않고 있습니다.
+              </p>
+              </div>
+            </div>
+            <!-- 대외활동 -->
+            <div class="main-icons__col col-md-4 d-flex flex-column align-items-center my-5">
+              <img class="main-icons__icon" src="images/activity.png"/>
+              <div class="main-icons__text d-flex flex-column align-items-center">
+                <span class="text-center fs-4">대외활동</span>
+                <p class="text-center p-3">전국대학연합 학술 세미나, 연합 세미나와 멘토링, 워크숍 등을 통해 보안 분야의 트렌드와 학술적 연구, 전문가와 다른 보안인들과의 네트워크 형성을 하고 있습니다.
+              </p>
+              </div>
+            </div>
+            <!-- 친목 -->
+            <div class="main-icons__col col-md-4 d-flex flex-column align-items-center my-5">
+              <img class="main-icons__icon" src="images/etc.png"/>
+              <div class="main-icons__text d-flex flex-column align-items-center">
+                <span class="text-center fs-4">친목</span>
+                <p class="text-center p-3">OB 모임, 홈커밍 데이, 뒷풀이, MT 등을 통해 부원들, 선 후배들간의 교류와 친목이 활발합니다! 하지만 강요는 없어요:)</p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- 소개-주요 활동 -->
+      </div> <!-- 1. 소개 -->
+
+      <!-- 2. 연혁 -->
+      <div class="main-item main-ani d-flex justify-content-center align-items-center">
+        <img class="footstep-img" src="images/footstep-img.jpg" />
+      </div> <!-- 2. 연혁 -->
+
+      <!-- 3. 로드맵 -->
+      <div class="main-item main-ani d-flex justify-content-center align-items-center">
+        <img class="roadmap-img" src="images/roadmap-img.jpg" />
+      </div> <!-- 3. 로드맵 -->
+    </main> <!-- ========= main 본문 ========== -->
+
+
+    <!-- ======== Contact 버튼 ======== -->
+    <div class="contact-btn">
+      <!-- before -->
+      <span class="contact-btn__text-before">Contact</span>
+      <!-- after -->
+      <span class="contact-btn__text-after text-end"> 고민지 / 010-7186-4534 <br>
+        mjk4534@ewhain.net  </span>
+      <i class="fas fa-comment contact-btn__icon text-light fs-3"></i>
+    </div> <!-- ======== Contact 버튼 ======== -->
+
+    
+    <!-- ======== 하단 nav bar ======== -->
+    <nav class="nav-bottom navbar navbar-expand-lg sticky-bottom d-flex justify-content-center align-items-center">
+         <!-- items -->
+          <ul class="nav-list navbar-nav mb-2 mb-lg-0 d-flex align-items-center">
+            <!-- 인스타그램 -->
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light" href="https://www.instagram.com/ecops_ewha">
+                <i class="fab fa-instagram fs-2"></i>
+              </a>
+            </li>
+            <!-- 깃허브 -->
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light " href="https://github.com/E-COPS">
+                <i class="fab fa-github fs-2"></i>
+              </a>
+            </li>
+            <!-- 블로그 -->
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="https://blog.naver.com/ecopsecops">
+                <img src="images/blog.png" />
+              </a>
+            </li>
+            <!-- 메일 -->
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=ewha.ecops@gmail.com">
+                <i class="fas fa-paper-plane fs-4"></i>
+              </a>
+            </li>
+          </ul> <!-- items -->
+    </nav> <!-- ======== 하단 nav bar ======== -->
+
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main js.js"></script>
+  </body>
+</html>

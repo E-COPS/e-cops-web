@@ -1,0 +1,104 @@
+
+
+/* ========상단바======== */
+
+.nav-top__container{
+  position:relative;
+}
+
+/* 모바일 메뉴바 margin */
+@media (max-width:1000px) {
+  .nav-top__menus{
+    margin-top: 15px;
+  }
+}
+
+
+/* ---main 페이지 버튼 색상--- */
+
+/* 연한 색 */
+.nav-item .nav-link{
+  color:#497c66;
+}
+.nav-item .nav-link:hover{
+  color: #27503e;
+}
+
+/* 진한 색 */
+.nav-item .nav-link__dark{
+  color:#27503e;
+}
+.nav-item .nav-link__dark:hover{
+  color: #497c66;
+}
+
+
+/* ---main dark 페이지 버튼 색상--- */
+/* 하얀 색 */
+.nav-item .nav-link__white{
+  color:#ffffff;
+}
+.nav-item .nav-link__white:hover{
+  color: #3f906e;
+}
+
+/* 초록색 */
+.nav-item .nav-link__green{
+  color: #3f906e;
+}
+.nav-item .nav-link__green:hover{
+  color:#ffffff;
+}
+
+
+/* ---모바일 버튼 색상--- */
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(39,80,62)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(73, 124, 102)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
+/* ---dark 모바일 버튼 색상--- */
+.dark-page .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.dark-page .navbar-toggler .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(63,144,110)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+
+/* ========하단바========= */
+.nav-bottom{
+  background-color: #27503e;
+}
+
+/* ---dark 모드--- */
+.nav-bottom__dark{
+  background-color: black;
+} 
+
+.nav-bottom img{
+  width: 55px;
+  height:35px;
+  object-fit: cover;
+}
+
+.navbar-brand{
+  height:40px;
+}
+
+.navbar-brand img{
+  width:45px;
+  height:45px;
+  padding:0;
+  position:absolute;
+  top:-2px;
+}
